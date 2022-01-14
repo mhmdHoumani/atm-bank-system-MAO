@@ -1,0 +1,50 @@
+#dialogSheet{
+    -fx-background-color: #e1e1e1;
+}
+
+#button0, #button1, #button2,
+#button3, #button4, #button5,
+#button6, #button7, #button8, #button9{
+    -fx-background-color: #7d7d7d;
+    -fx-background-radius: 100;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-font-size: 33;
+    -fx-font-family: Century Gothic;
+    -fx-cursor: hand;
+}
+#button{
+    -fx-background-color: green;
+}
+
+#buttonCancel{
+    -fx-background-color: red;
+}
+
+#button, #buttonCancel{
+    -fx-font-weight: bold;
+    -fx-background-radius: 100;
+    -fx-font-size: 18;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+}
+
+#lbl{
+    -fx-font-family: Century Gothic;
+    -fx-font-size: 22;
+}
+
+#resultArea{
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 10;
+    -fx-font-family: Century Gothic;
+    -fx-font-size: 22;
+}
+
+#clearField{
+    -fx-cursor: hand;
+}
